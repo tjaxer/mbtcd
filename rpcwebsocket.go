@@ -20,15 +20,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/websocket"
+	"github.com/tjaxer/mbtcd/blockchain"
+	"github.com/tjaxer/mbtcd/btcjson"
+	"github.com/tjaxer/mbtcd/chaincfg"
+	"github.com/tjaxer/mbtcd/chaincfg/chainhash"
+	"github.com/tjaxer/mbtcd/database"
+	"github.com/tjaxer/mbtcd/txscript"
+	"github.com/tjaxer/mbtcd/wire"
 	"golang.org/x/crypto/ripemd160"
 )
 

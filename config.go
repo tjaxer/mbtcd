@@ -20,17 +20,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/connmgr"
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/peer"
 	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/tjaxer/mbtcd/blockchain"
+	"github.com/tjaxer/mbtcd/chaincfg"
+	"github.com/tjaxer/mbtcd/chaincfg/chainhash"
+	"github.com/tjaxer/mbtcd/connmgr"
+	"github.com/tjaxer/mbtcd/database"
+	_ "github.com/tjaxer/mbtcd/database/ffldb"
+	"github.com/tjaxer/mbtcd/mempool"
+	"github.com/tjaxer/mbtcd/peer"
 )
 
 const (

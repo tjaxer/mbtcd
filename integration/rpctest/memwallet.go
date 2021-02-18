@@ -10,8 +10,6 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
 	"github.com/tjaxer/mbtcd/blockchain"
 	"github.com/tjaxer/mbtcd/btcec"
 	"github.com/tjaxer/mbtcd/chaincfg"
@@ -19,6 +17,8 @@ import (
 	"github.com/tjaxer/mbtcd/rpcclient"
 	"github.com/tjaxer/mbtcd/txscript"
 	"github.com/tjaxer/mbtcd/wire"
+	"github.com/tjaxer/mbtcutil"
+	"github.com/tjaxer/mbtcutil/hdkeychain"
 )
 
 var (

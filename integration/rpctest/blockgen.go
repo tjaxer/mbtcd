@@ -11,12 +11,12 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/tjaxer/mbtcd/blockchain"
 	"github.com/tjaxer/mbtcd/chaincfg"
 	"github.com/tjaxer/mbtcd/chaincfg/chainhash"
 	"github.com/tjaxer/mbtcd/txscript"
 	"github.com/tjaxer/mbtcd/wire"
+	"github.com/tjaxer/mbtcutil"
 )
 
 // solveBlock attempts to find a nonce which makes the passed block header hash

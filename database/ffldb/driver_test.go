@@ -11,10 +11,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/tjaxer/mbtcd/chaincfg"
 	"github.com/tjaxer/mbtcd/database"
 	"github.com/tjaxer/mbtcd/database/ffldb"
+	"github.com/tjaxer/mbtcutil"
 )
 
 // dbType is the database type name for this driver.

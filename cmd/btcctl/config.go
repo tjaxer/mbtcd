@@ -13,10 +13,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/btcsuite/btcutil"
 	flags "github.com/jessevdk/go-flags"
 	"github.com/tjaxer/mbtcd/btcjson"
 	"github.com/tjaxer/mbtcd/chaincfg"
+	"github.com/tjaxer/mbtcutil"
 )
 
 const (

@@ -12,10 +12,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/tjaxer/mbtcd/btcjson"
 	"github.com/tjaxer/mbtcd/chaincfg/chainhash"
 	"github.com/tjaxer/mbtcd/wire"
+	"github.com/tjaxer/mbtcutil"
 )
 
 // FutureDebugLevelResult is a future promise to deliver the result of a

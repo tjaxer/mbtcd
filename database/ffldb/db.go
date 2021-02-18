@@ -14,7 +14,6 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/goleveldb/leveldb"
 	"github.com/btcsuite/goleveldb/leveldb/comparer"
 	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
@@ -26,6 +25,7 @@ import (
 	"github.com/tjaxer/mbtcd/database"
 	"github.com/tjaxer/mbtcd/database/internal/treap"
 	"github.com/tjaxer/mbtcd/wire"
+	"github.com/tjaxer/mbtcutil"
 )
 
 const (

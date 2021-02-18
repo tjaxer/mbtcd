@@ -11,8 +11,8 @@ import (
 
 	"github.com/tjaxer/mbtcd/chaincfg/chainhash"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/tjaxer/mbtcd/wire"
+	"github.com/tjaxer/mbtcutil"
 )
 
 // GetBlockHeaderVerboseResult models the data from the getblockheader command when

@@ -20,7 +20,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
 	"github.com/tjaxer/mbtcd/blockchain"
@@ -31,6 +30,7 @@ import (
 	_ "github.com/tjaxer/mbtcd/database/ffldb"
 	"github.com/tjaxer/mbtcd/mempool"
 	"github.com/tjaxer/mbtcd/peer"
+	"github.com/tjaxer/mbtcutil"
 )
 
 const (

@@ -20,7 +20,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/websocket"
 	"github.com/tjaxer/mbtcd/blockchain"
 	"github.com/tjaxer/mbtcd/btcjson"
@@ -29,6 +28,7 @@ import (
 	"github.com/tjaxer/mbtcd/database"
 	"github.com/tjaxer/mbtcd/txscript"
 	"github.com/tjaxer/mbtcd/wire"
+	"github.com/tjaxer/mbtcutil"
 	"golang.org/x/crypto/ripemd160"
 )
 

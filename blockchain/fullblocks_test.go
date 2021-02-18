@@ -12,7 +12,6 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/tjaxer/mbtcd/blockchain"
 	"github.com/tjaxer/mbtcd/blockchain/fullblocktests"
 	"github.com/tjaxer/mbtcd/chaincfg"
@@ -21,6 +20,7 @@ import (
 	_ "github.com/tjaxer/mbtcd/database/ffldb"
 	"github.com/tjaxer/mbtcd/txscript"
 	"github.com/tjaxer/mbtcd/wire"
+	"github.com/tjaxer/mbtcutil"
 )
 
 const (

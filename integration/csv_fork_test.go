@@ -14,7 +14,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/tjaxer/mbtcd/blockchain"
 	"github.com/tjaxer/mbtcd/btcec"
 	"github.com/tjaxer/mbtcd/chaincfg"
@@ -22,6 +21,7 @@ import (
 	"github.com/tjaxer/mbtcd/integration/rpctest"
 	"github.com/tjaxer/mbtcd/txscript"
 	"github.com/tjaxer/mbtcd/wire"
+	"github.com/tjaxer/mbtcutil"
 )
 
 const (

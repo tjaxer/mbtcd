@@ -22,8 +22,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/bloom"
 	"github.com/tjaxer/mbtcd/addrmgr"
 	"github.com/tjaxer/mbtcd/blockchain"
 	"github.com/tjaxer/mbtcd/blockchain/indexers"
@@ -38,6 +36,8 @@ import (
 	"github.com/tjaxer/mbtcd/peer"
 	"github.com/tjaxer/mbtcd/txscript"
 	"github.com/tjaxer/mbtcd/wire"
+	"github.com/tjaxer/mbtcutil"
+	"github.com/tjaxer/mbtcutil/bloom"
 )
 
 const (

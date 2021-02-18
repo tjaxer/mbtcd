@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/btcsuite/btcutil"
 	rpc "github.com/tjaxer/mbtcd/rpcclient"
+	"github.com/tjaxer/mbtcutil"
 )
 
 // nodeConfig contains all the args, and data required to launch a btcd process
